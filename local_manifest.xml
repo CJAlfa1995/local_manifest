@@ -2,8 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/motorola/sm8250-common" name="CJAlfa1995/android_device_motorola_sm8250-common.git" remote="github" revision="lineage-20" />
+ <project path="device/motorola/nio" name="CJAlfa1995/android_device_motorola_nio.git" remote="github" revision="lineage-20" />
  <project path="device/motorola/sm8250-common" name="CJAlfa1995/android_device_motorola_sm8250-common.git" remote="github" revision="lineage-20" />
  <project path="kernel/motorola/sm8250" name="CJAlfa1995/android_kernel_motorola_sm8250.git" remote="github" revision="lineage-20" />
+ <project path="hardware/motorola" name="CJAlfa1995/android_hardware_motorola.git" remote="github" revision="lineage-20" />
  
 </manifest>

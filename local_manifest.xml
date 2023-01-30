@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        
+
+        <!-- fetching sources -->      
+
+        <remote name="Rinto02"
+
+                fetch="https://github.com/CJAlfa1995" />
+
+         <remote name="r450784d"
+
+                fetch="https://gitlab.com/rintokhan" />
+
+<!-- device trees -->
+
+        <project path="device/motorola/nio" name="android_device_motorola_nio" remote="CJAlfa1995" revision="lineage-20" />
+
+        <project path="vendor/motorola/sm8250" name="proprietary_vendor_motorola_sm8250-common" remote="CJAlfa1995" revision="lineage-20" />
+
+
+        <project path="kernel/realme/RMX2020" name="android_kernel_realme_RMX2020" remote="Rinto02" revision="arrow-13.0" clone-depth="1" />
+
+        <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
+
+<!-- clang -->
+
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="CJAlfa1995" revision="main" clone-depth="1" />
+
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
+
+<!-- Replacement -->
+
+        
+     </manifest>
